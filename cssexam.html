@@ -2,6 +2,32 @@
 
 <head>
     <title>CSS Flex</title>
+    <style>
+        main {
+            display: flex;
+            border: 2px solid green;
+            height: 500px;
+            flex-direction: column;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            border: 2px dashed purple;
+            flex-wrap: wrap;
+            align-self: center;
+        }
+
+        .flex-container > div {
+            background-color: pink;
+            padding: 30px;
+            margin: 20px;
+            border: 1px solid red;
+            font-size: 30px;
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
